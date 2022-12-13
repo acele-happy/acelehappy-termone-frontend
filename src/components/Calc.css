@@ -13,7 +13,7 @@
     width: 50%;
     position: relative;
     border-right: 1px solid #222;
-    background: rgb(131,58,180);
+    /* background: rgb(131,58,180); */
 background: linear-gradient(90deg, rgb(212, 148, 255) 0%, rgba(199, 245, 255, 0.906) 50%, rgb(255, 216, 162) 100%);
 }
 .left input{
