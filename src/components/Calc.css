@@ -1,34 +1,50 @@
 .container{
     display: flex;
-    width: 70%;
+    width: 50%;
     margin: auto;
     position: relative;
     top: 100px;
+    box-shadow: 3px 5px 2px 0 rgba(0,0,0,0.2);
+    height: 40vh;
 }
 .left{
     display: flex;
     flex-direction: column;
     width: 50%;
     position: relative;
+    border-right: 1px solid #222;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgb(212, 148, 255) 0%, rgba(199, 245, 255, 0.906) 50%, rgb(255, 216, 162) 100%);
 }
 .left input{
     width: 60%;
     margin: 10px;
     position: inherit;
-    padding: 5px;
-    left: 80px;
+    padding: 8px;
+    left: 60px;
     outline: none;
+    border: none;
+    border-radius: 3px;
 }
 .left button{
     width: 150px;
-    margin-bottom: 5px;
+    margin-top: 25px;
     position: inherit;
-    left: 140px;
-    padding: 2px;
+    left: 90px;
+    padding: 5px;
+    background: orange;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
 
 }
 .right{
     width: 50%;
     /* background: lightblue; */
     text-align: center;
+}
+
+.right span{
+    font-size: 20px;
 }
